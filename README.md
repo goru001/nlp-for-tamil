@@ -1,6 +1,10 @@
 # nlp-for-tamil
 State of the Art Tokenizer, Language model and Classifier for Tamil language (spoken in India, and few other South Asian countries)
 
+The details below show you how the language model was constructed.
+
+If you want to explore the results, you can click on the [Explortion notebook] (https://github.com/goru001/nlp-for-tamil/blob/master/Explore_Pretrained_Tamil_Language_Model.ipynb) at the base folder and open it on free google colab.
+
 
 ## Dataset
 Download Wikipedia Articles Dump (>127,000 articles) and extract documents alone using WikiDataExtractor module. 
