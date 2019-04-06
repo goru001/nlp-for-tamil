@@ -3,7 +3,9 @@ State of the Art Tokenizer, Language model and Classifier for Tamil language (sp
 
 The details below show you how the language model was constructed.
 
-If you want to explore the results, you can click on the [Explortion notebook] (https://github.com/goru001/nlp-for-tamil/blob/master/Explore_Pretrained_Tamil_Language_Model.ipynb) at the base folder and open it on free google colab.
+If you want to explore the results, you can click on the Exploration notebook 
+(https://github.com/goru001/nlp-for-tamil/blob/master/Explore_Pretrained_Tamil_Language_Model.ipynb) 
+at the base folder and open it on free google colab.
 
 
 ## Dataset
