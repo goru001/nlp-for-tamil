@@ -41,13 +41,13 @@ Download Tamil News passages Small Dataset
  (6,000+ short snippets on business, cinema and spirituality)
   from [here](https://www.dropbox.com/s/nobuuiot8qnbogo/Tamil_News_Classification_3class.csv?dl=0) 
 
-Thanks to thetamilhindu headline crawler built using news crawler from vanangamudi [here] (https://github.com/vanangamudi)
+Thanks to thetamilhindu headline crawler built using news crawler from [vanangamudi](https://github.com/vanangamudi).
 
 ## Model Downloads
 
 ### Tokenizer model
 
-Download Tamil sentencepiece Tokenizer : model file from [here](https://www.dropbox.com/s/9q1pkf6c7ahs9qm/tamil_spm_8k.model) and vocab file [here] (https://www.dropbox.com/s/5u4l67faq46jbvw/tamil_spm_8k.vocab)
+Download Tamil sentencepiece Tokenizer : model file from [here](https://www.dropbox.com/s/9q1pkf6c7ahs9qm/tamil_spm_8k.model) and vocab file [here](https://www.dropbox.com/s/5u4l67faq46jbvw/tamil_spm_8k.vocab)
 
 ### Language model
 
