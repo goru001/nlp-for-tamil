@@ -1,40 +1,71 @@
-# nlp-for-tamil
-State of the Art Tokenizer, Language model and Classifier for Tamil language (spoken in India, and few other South Asian countries)
+# NLP for Tamil
+State of the Art Tokenizer, Language model and Classifier for Tamil language (spoken in India, Sri Lanka, Malaysia, Singapore)
 
+## Notebooks
 The details below show you how the language model was constructed.
 
-If you want to explore the results, you can click on the Exploration notebook 
-(https://github.com/goru001/nlp-for-tamil/blob/master/Explore_Pretrained_Tamil_Language_Model.ipynb) 
-at the base folder and open it on free google colab.
+If you want to explore the results, you can checkout the
+ [Exploration notebook](https://github.com/goru001/nlp-for-tamil/blob/master/Explore_Pretrained_Tamil_Language_Model.ipynb) and
+ open it for free on google colab.
 
+### Dataset preparation
+Downloads Wikipedia Articles Dump (>127,000 articles) and
+ extract documents using WikiDataExtractor module. 
 
-## Dataset
-Download Wikipedia Articles Dump (>127,000 articles) and extract documents alone using WikiDataExtractor module. 
-
-Download Tamil Wikipedia Articles Dataset (120,000+ articles) from [here (training set)](https://www.dropbox.com/s/fsl10ukpbpk51g3/tawiki_train.zip?dl=0) and [here (validation set)](https://www.dropbox.com/s/fsl10ukpbpk51g3/tawiki_train.zip?dl=0).
-
-
-## Tokenizer
-Built tokenizer using Google sentence piece. Tried various vocabulary sizes and found that 8000 words
+### Tokenizer
+Built tokenizer using Google's
+ [sentencepiece](https://github.com/google/sentencepiece).
+  Tried various vocabulary sizes and found that 8000 words
 is optimal in early experiments. English Hindi etc work well with 30K word-parts, but since Tamil has 
 even more complex morphology "(he) is about to go" is one word: "pogavirukkiraan".
 
-## Language Model using Fastai AWD-LSTM (amazing code.)
+### Language Model using Fastai AWD-LSTM (amazing code.)
 * Perplexity of Language Model: ~20 
+
+Thanks to Jeremy Howard for his great gift of fastdotai (code, training and encouragement).
+
+### Classifier
+* Accuracy of classification model: ~97%
+* Kappa score of classification model: ~95
+
+## Datasets
+
+#### Wiki text for language modeling
+
+Download Tamil Wikipedia Articles Dataset (120,000+ articles) from
+ [here (training set)](https://www.dropbox.com/s/fsl10ukpbpk51g3/tawiki_train.zip?dl=0) and [here (validation set)](https://www.dropbox.com/s/fsl10ukpbpk51g3/tawiki_train.zip?dl=0).
+
+#### Article snippets for classification
+
+Download Tamil News passages Small Dataset
+ (6,000+ short snippets on business, cinema and spirituality)
+  from [here](https://www.dropbox.com/s/nobuuiot8qnbogo/Tamil_News_Classification_3class.csv?dl=0) 
+
+Thanks to thetamilhindu headline crawler built using news crawler from vanangamudi [here] (https://github.com/vanangamudi)
+
+## Model Downloads
+
+### Tokenizer model
+
+Download Tamil sentencepiece Tokenizer : model file from [here](https://www.dropbox.com/s/9q1pkf6c7ahs9qm/tamil_spm_8k.model) and vocab file [here] (https://www.dropbox.com/s/5u4l67faq46jbvw/tamil_spm_8k.vocab)
+
+### Language model
 
 Download pretrained Language Model from [here](https://www.dropbox.com/s/zozzrgawulkwtxa/wikitalm_8k_447_third.pth?dl=0)
 
+### Classifier model
 
-Thanks to Jeremy Howard for his great gift of fastdotai (code, training and encouragement to countless youngsters and oldsters.
+Download trained classifier from [here](https://www.dropbox.com/s/3tg0yemgtrevga5/final.pth?dl=0)
 
 
-## Example result. 
+## Example result from the language model. 
 The ULMFit AWD-LSTM is amazing in its fast ability to learn a model.
 
 Here are some wiki article (totally imagined) by the language model. 
 These are not facts, but we can see how well the grammar and even topicality and semantics are learned by it. This quality was unthinkable just a year ago. 
 
 The model learns to properly open and close the tags. It creates well formed urls (though nonexistent). It learns to repeat the title.
+
 And in each article it stays on related places and concepts! But it is truly a random walk in its knowledge store, it is more close to what happens in our dreams where we jump forward losing logical connections :)
 
 Through training on larger dataset and large-span modeling, these could be more and more coherent.
