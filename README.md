@@ -33,7 +33,8 @@ Thanks to Jeremy Howard for his great gift of fastdotai (code, training and enco
 #### Wiki text for language modeling
 
 Download Tamil Wikipedia Articles Dataset (120,000+ articles) from
- [here (training set)](https://www.dropbox.com/s/fsl10ukpbpk51g3/tawiki_train.zip?dl=0) and [here (validation set)](https://www.dropbox.com/s/fsl10ukpbpk51g3/tawiki_train.zip?dl=0).
+ [here (training set)](https://www.dropbox.com/s/fsl10ukpbpk51g3/tawiki_train.zip?dl=0)
+  and [here (validation set)](https://www.dropbox.com/s/8gg3aou8yazrwx1/tawiki_valid.zip?dl=0).
 
 #### Article snippets for classification
 
