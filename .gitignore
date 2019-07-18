@@ -1,7 +1,3 @@
 dataset-preparation/.ipynb_checkpoints/*
 language-model/.ipynb_checkpoints/*
 tokenizer/.ipynb_checkpoints/*
-.idea/
-language-model/TamilWikiDataset/*
-language-model/inltk/__pycache__/*
-language-model/.ipynb_checkpoints/*
