@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Tamil Embedding Vectors",
+      "tensorShape": [
+        8000,
+        400
+      ],
+      "tensorPath": "https://media.githubusercontent.com/media/goru001/nlp-for-tamil/master/language-model/embeddings.tsv",
+      "metadataPath": "https://media.githubusercontent.com/media/goru001/nlp-for-tamil/master/language-model/embeddings_metadata.tsv"
+    }
+  ]
+}
