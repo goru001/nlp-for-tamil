@@ -3,7 +3,7 @@
     {
       "tensorName": "Tamil Embedding Vectors - TransformerXL",
       "tensorShape": [
-        8000,
+        16000,
         410
       ],
       "tensorPath": "https://media.githubusercontent.com/media/goru001/nlp-for-tamil/master/language-model/embeddings_transformer.tsv",
