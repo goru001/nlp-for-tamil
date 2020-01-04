@@ -39,8 +39,9 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 | Architecture | Visualization |
 |:--------:|:----:|
-| ULMFiT | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embedding_projector_config.json) |
-| TransformerXL | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embedding_projector_transformer_config.json)  |
+| ULMFiT | [Embeddings projection with 8k vocab](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embedding_projector_config.json) |
+| TransformerXL | [Embeddings projection with 16k vocab](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embedding_projector_transformer_config.json)  |
+| TransformerXL | [Embeddings projection with 8k vocab](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embedding_projector_transformer_8k_config.json)  |
 
 
 ## Pretrained Language Model
