@@ -1,7 +1,7 @@
 {
   "embeddings": [
     {
-      "tensorName": "Tamil Embedding Vectors",
+      "tensorName": "Tamil Embedding Vectors - ULMFiT",
       "tensorShape": [
         8000,
         400
