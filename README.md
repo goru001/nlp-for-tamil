@@ -18,10 +18,11 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 #### Language Model Perplexity
 
-| Architecture/Dataset | Tamil Wikipedia Articles |
-|:--------:|:----:|
-|   ULMFiT  |  19.80  |
-|  TransformerXL |  17.22  |
+| Architecture/Dataset | Tamil Wikipedia Articles | Vocab size |
+|:--------:|:----:|:----:|
+|   ULMFiT  |  19.80  |  8k  |
+|  TransformerXL |  18.91  |  8k  |
+|  TransformerXL |  17.22  |  16k  |
 
 
 #### Classification Metrics
@@ -37,11 +38,11 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
  
 ##### Embedding Space
 
-| Architecture | Visualization |
-|:--------:|:----:|
-| ULMFiT | [Embeddings projection with 8k vocab](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embedding_projector_config.json) |
-| TransformerXL | [Embeddings projection with 16k vocab](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embedding_projector_transformer_config.json)  |
-| TransformerXL | [Embeddings projection with 8k vocab](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embedding_projector_transformer_8k_config.json)  |
+| Architecture | Vocab Size | Visualization |
+|:--------:|:----:|:----:|
+| ULMFiT | 8k | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embedding_projector_config.json) |
+| TransformerXL | 8k | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embedding_projector_transformer_8k_config.json)  |
+| TransformerXL | 16k | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embedding_projector_transformer_config.json)  |
 
 
 ## Pretrained Language Model
