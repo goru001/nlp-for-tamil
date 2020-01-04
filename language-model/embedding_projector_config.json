@@ -6,8 +6,8 @@
         8000,
         400
       ],
-      "tensorPath": "https://media.githubusercontent.com/media/goru001/nlp-for-tamil/master/language-model/embeddings.tsv",
-      "metadataPath": "https://media.githubusercontent.com/media/goru001/nlp-for-tamil/master/language-model/embeddings_metadata.tsv"
+      "tensorPath": "https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embeddings.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/goru001/nlp-for-tamil/master/language-model/embeddings_metadata.tsv"
     }
   ]
 }
